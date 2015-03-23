@@ -36,7 +36,7 @@ but it diverges according to the following design principles:
 
 ## Screenshots
 
-![C code with hlsearch](http://i.imgur.com/Cyx2wsC.png)
+![C](http://i.imgur.com/s4ZROsQ.png)
 
 For more, see the [screenshots page](https://github.com/henrybw/vim-colors-aurora/wiki/Screenshots) on the wiki.
 
