@@ -1,16 +1,14 @@
-" Name:     Solstice vim colorscheme
+" Name:     Aurora vim colorscheme
 " Author:   Henry Baba-Weiss <henry.babaweiss@gmail.com>
 
-" 'Solstice' is my custom vim color scheme, modeled closely after the Solarized
-" Dark color scheme. In some ways, it is a 'brighter' version of Solarized Dark
-" (which is the tongue-in-cheek explanation for where the name 'Solstice' comes
-" from). It was designed using Solarized Dark as a base starting point, but it
-" diverges according to the following design principles:
+" 'Aurora' is my custom vim color scheme, modeled closely after the Solarized
+" Dark color scheme. It was designed using Solarized Dark as a base starting
+" point, but it diverges according to the following design principles:
 "
 "  o Compatibility/consistency between gvim and terminal vim.
 "    Solarized doesn't tend to work so well using xterm 256 colors, possibly
 "    because its color choice is so specialized. Initially, my custom color
-"    scheme (that would eventually turn into Solstice) was an attempt to mimic
+"    scheme (that would eventually turn into Aurora) was an attempt to mimic
 "    Solarized, but with the constraint of only using xterm colors. As much as
 "    possible, I've strived to keep the 24-bit gvim colors identical, or at
 "    least very similar, to the color choices used for the terminal color scheme.
@@ -21,7 +19,7 @@
 "    most notable example is the color of comments: a dark gray that makes them
 "    very easy to gloss over when scanning through code.
 "
-"    Solstice, on the other hand, emphasizes contrast between major syntactical
+"    Aurora, on the other hand, emphasizes contrast between major syntactical
 "    elements, e.g. comments, identifiers, and keywords. This makes it much
 "    easier to recognize and visually group together syntactical features while
 "    scanning through code.
@@ -45,7 +43,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="solstice"
+let g:colors_name="aurora"
 
 " -----------------------------------------------------------------------------
 " Basic syntax highlighting

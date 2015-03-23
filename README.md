@@ -1,16 +1,14 @@
-# Solstice
+# Aurora
 
-'Solstice' is my custom vim color scheme, modeled closely after the [Solarized](http://ethanschoonover.com/solarized)
-Dark color scheme. In some ways, it is a 'brighter' version of Solarized Dark
-(which is the tongue-in-cheek explanation for where the name 'Solstice' comes
-from). It was designed using Solarized Dark as a base starting point, but it
-diverges according to the following design principles:
+'Aurora' is my custom vim color scheme, modeled closely after the [Solarized](http://ethanschoonover.com/solarized)
+Dark color scheme. It was designed using Solarized Dark as a base starting point,
+but it diverges according to the following design principles:
 
  * **Compatibility/consistency between gvim and terminal vim.**
 
    Solarized doesn't tend to work so well using xterm 256 colors, possibly
    because its color choice is so specialized. Initially, my custom color
-   scheme (that would eventually turn into Solstice) was an attempt to mimic
+   scheme (that would eventually turn into Aurora) was an attempt to mimic
    Solarized, but with the constraint of only using xterm colors. As much as
    possible, I've strived to keep the 24-bit gvim colors identical, or at
    least very similar, to the color choices used for the terminal color scheme.
@@ -22,7 +20,7 @@ diverges according to the following design principles:
    most notable example is the color of comments: a dark gray that makes them
    very easy to gloss over when scanning through code.
 
-   Solstice, on the other hand, emphasizes contrast between major syntactical
+   Aurora, on the other hand, emphasizes contrast between major syntactical
    elements, e.g. comments, identifiers, and keywords. This makes it much
    easier to recognize and visually group together syntactical features while
    scanning through code.
@@ -40,7 +38,7 @@ diverges according to the following design principles:
 
 ![C code with hlsearch](http://i.imgur.com/Cyx2wsC.png)
 
-For more, see the [screenshots page](https://github.com/henrybw/vim-solstice/wiki/Screenshots) on the wiki.
+For more, see the [screenshots page](https://github.com/henrybw/vim-colors-aurora/wiki/Screenshots) on the wiki.
 
 ## Installation
 
@@ -48,7 +46,7 @@ For more, see the [screenshots page](https://github.com/henrybw/vim-solstice/wik
    simply clone this repo into your `~/.vim/bundle`:
 
         $ cd ~/.vim/bundle
-        $ git clone https://github.com/henrybw/vim-solstice
+        $ git clone https://github.com/henrybw/vim-colors-aurora
 
     (This process should theoretically also work for Vundle and other similar
      vim plugin managers.)
@@ -57,15 +55,15 @@ For more, see the [screenshots page](https://github.com/henrybw/vim-solstice/wik
     your `.vim/colors` directory:
 
         $ mkdir -p ~/.vim/colors
-        $ cd vim-solstice/colors
-        $ mv solarized.vim ~/.vim/colors/
+        $ cd vim-colors-aurora/colors
+        $ mv aurora.vim ~/.vim/colors/
 
 2. Modify your .vimrc:
 
-   Add the following lines to your `~/.vimrc` file to enable Solstice:
+   Add the following lines to your `~/.vimrc` file to enable Aurora:
    
          syntax on
-         colorscheme solstice
+         colorscheme aurora
    
    NOTE: To have the terminal colorscheme work properly, you may need to also add
    the following lines to your .vimrc:
