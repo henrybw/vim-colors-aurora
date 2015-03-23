@@ -71,7 +71,7 @@ For more, see the [screenshots page](https://github.com/henrybw/vim-colors-auror
          set t_ut=
          set t_Co=256
 
-3. (Optional) Modify your terminal background
+3. (Optional) Modify your terminal background:
 
    While Aurora will work fine on any dark colored background, take note that
    the terminal vim colorscheme will not set your background color for you.
