@@ -80,13 +80,13 @@ For more, see the [screenshots page](https://github.com/henrybw/vim-colors-auror
    
    The intended background color, as specified for the gvim colorscheme, is:
    
-      #002b36 (R: 0/255, G: 43/255, B: 54/255)
+         #002b36 (R: 0/255, G: 43/255, B: 54/255)
       
    NOTE for OS X users: For some reason, MacVim makes this appear darker than
    it actually is. To make your terminal background match what MacVim renders,
    use the following color instead:
    
-      #092029 (R: 9/255, G: 32/255, B: 41/255)
+         #092029 (R: 9/255, G: 32/255, B: 41/255)
 
    This quirk does not seem to be present in the Linux version of gvim, from
    what I have observed.
