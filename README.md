@@ -1,6 +1,6 @@
 # Solstice
 
-'Solstice' is my custom vim color scheme, modeled closely after the Solarized
+'Solstice' is my custom vim color scheme, modeled closely after the [Solarized](http://ethanschoonover.com/solarized)
 Dark color scheme. In some ways, it is a 'brighter' version of Solarized Dark
 (which is the tongue-in-cheek explanation for where the name 'Solstice' comes
 from). It was designed using Solarized Dark as a base starting point, but it
