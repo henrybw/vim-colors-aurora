@@ -36,6 +36,12 @@ diverges according to the following design principles:
    formal process or method to my selection; I simply hand-tweaked until I
    found the colors aesthetically pleasing and, to my eye, balanced.
 
+## Screenshots
+
+![C code with hlsearch](http://i.imgur.com/Cyx2wsC.png)
+
+For more, see the [screenshots page](https://github.com/henrybw/vim-solstice/wiki/Screenshots) on the wiki.
+
 ## Installation
 
 1. If you have [Pathogen](https://github.com/tpope/vim-pathogen), then you can
