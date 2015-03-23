@@ -54,7 +54,7 @@ diverges according to the following design principles:
         $ cd vim-solstice/colors
         $ mv solarized.vim ~/.vim/colors/
 
-2. Modify your .vimrc
+2. Modify your .vimrc:
 
    Add the following lines to your `~/.vimrc` file to enable Solstice:
    
