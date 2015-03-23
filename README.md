@@ -56,13 +56,13 @@ diverges according to the following design principles:
 
 2. Modify your .vimrc
 
-Add the following lines to your `~/.vimrc` file to enable Solstice:
-
-    syntax on
-    colorscheme solstice
-
-NOTE: To have the terminal colorscheme work properly, you may need to also add
-the following lines to your .vimrc:
-
-    set t_ut=
-    set t_Co=256
+   Add the following lines to your `~/.vimrc` file to enable Solstice:
+   
+         syntax on
+         colorscheme solstice
+   
+   NOTE: To have the terminal colorscheme work properly, you may need to also add
+   the following lines to your .vimrc:
+   
+         set t_ut=
+         set t_Co=256
