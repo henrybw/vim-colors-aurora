@@ -100,8 +100,8 @@ hi! link VisualNOS Visual
 
 " Line numbering
 hi CursorLineNr term=bold     gui=bold
-hi CursorLineNr ctermfg=226   guifg=Yellow1
-hi LineNr       ctermfg=184   guifg=Yellow3
+hi CursorLineNr ctermfg=186   guifg=LightGoldenrod2
+hi LineNr       ctermfg=241   guifg=Grey39
 
 " No underline (defaults to underline in terminal mode)
 hi CursorLine   term=NONE     cterm=NONE
