@@ -153,12 +153,16 @@ hi DiffDelete   term=bold     cterm=bold
 hi DiffDelete   ctermfg=95    guifg=#875f5f
 hi DiffDelete   ctermbg=95    guibg=#875f5f
 
-" DeepSkyBlue3 can refer to two different colors...
-hi DiffChange   term=NONE     cterm=bold
-hi DiffChange   ctermbg=31    guibg=#0087af
-
+" DiffChange/DiffText refer to lines that have been modified, compared to lines
+" that have been wholly added or removed. In this case, what I've done is only
+" highlight the portions of text that changed (i.e. DiffText). Thus,
+" DiffChange,
+" i.e.  the lines containing these changed portions of text, has no
+" highlight.
+hi DiffChange   term=NONE     cterm=NONE
+hi DiffChange   ctermbg=NONE  guibg=NONE
 hi DiffText     term=NONE     cterm=bold
-hi DiffText     ctermbg=67    guibg=SteelBlue
+hi DiffText     ctermbg=23    guibg=#005f5f
 
 " -----------------------------------------------------------------------------
 " Vim syntax highlighting
