@@ -1,0 +1,45 @@
+!
+! Aurora Xresources colorscheme
+!
+
+! For some reason, generic wildcards don't seem to work for these. If you don't
+! use rxvt-unicode, change URxvt to the name of your terminal emulator of choice.
+URxvt*background: #002b36
+URxvt*foreground: #bcbcbc
+URxvt*cursorColor: #bcbcbc
+
+! Normal ANSI color definitions:
+! 0: Black
+! 1: Red
+! 2: Green
+! 3: Yellow
+! 4: Blue
+! 5: Magenta
+! 6: Cyan
+! 7: White
+*color0: #000000
+*color1: #bb0000
+*color2: #00bb00
+*color3: #bbbb00
+*color4: #4359fe
+*color5: #bb00bb
+*color6: #00bbbb
+*color7: #bbbbbb
+
+! Bright ANSI color definitions
+! 8: Black
+! 9: Red
+! 10: Green
+! 11: Yellow
+! 12: Blue
+! 13: Magenta
+! 14: Cyan
+! 15: White
+*color8: #777777
+*color9: #ff5555
+*color10: #55ff55
+*color11: #ffff55
+*color12: #5482ff
+*color13: #ff55ff
+*color14: #55ff55
+*color15: #ffffff
