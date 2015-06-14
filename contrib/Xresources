@@ -18,10 +18,10 @@ URxvt*cursorColor: #bcbcbc
 ! 6: Cyan
 ! 7: White
 *color0: #000000
-*color1: #bb0000
+*color1: #dd0000
 *color2: #00bb00
 *color3: #bbbb00
-*color4: #4359fe
+*color4: #1e21fe
 *color5: #bb00bb
 *color6: #00bbbb
 *color7: #bbbbbb
@@ -41,5 +41,5 @@ URxvt*cursorColor: #bcbcbc
 *color11: #ffff55
 *color12: #5482ff
 *color13: #ff55ff
-*color14: #55ff55
+*color14: #55ffff
 *color15: #ffffff
