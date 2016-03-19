@@ -63,14 +63,14 @@ hi! link Repeat Statement
 hi! link Label Statement
 hi! link Structure Statement
 
-hi PreProc      ctermfg=111   guifg=SkyBlue2
+hi PreProc      ctermfg=75    guifg=#5fafff
 hi! link Include PreProc
 
-hi Type         term=NONE     cterm=NONE
-hi Type         ctermfg=121   guifg=PaleGreen1
+hi Type         ctermfg=121   guifg=PaleGreen1 term=NONE cterm=NONE
 
 hi Function     ctermfg=39    guifg=DeepSkyBlue1
-hi Operator     ctermfg=76    guifg=Chartreuse2
+hi Operator     ctermfg=109   guifg=#87afaf
+hi! link Delimiter Operator
 
 hi Constant     ctermfg=44    guifg=LightSeaGreen
 hi! link String Constant
