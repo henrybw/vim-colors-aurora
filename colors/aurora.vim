@@ -198,6 +198,10 @@ hi DiffChange   ctermbg=NONE  guibg=NONE
 hi DiffText     term=NONE     cterm=bold
 hi DiffText     ctermbg=23    guibg=#005f5f
 
+" Less noisy versions of add/remove diff highlighting for things like git logs
+hi diffAdded    ctermfg=40    guifg=#00df00
+hi diffRemoved  ctermfg=160   guifg=#df0000
+
 " -----------------------------------------------------------------------------
 " Vim syntax highlighting
 " -----------------------------------------------------------------------------
