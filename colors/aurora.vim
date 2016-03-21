@@ -57,7 +57,7 @@ hi Normal       guifg=#bcbcbc guibg=#002b36
 " too much can add a lot of gratuitous, obnoxious visual noise. Instead, I want
 " them to appear pretty close to normal text, but just slightly different enough
 " to tell them apart from normal text.
-hi Operator     ctermfg=109   guifg=#87afaf
+hi Operator     ctermfg=110   guifg=#87afdf
 hi! link Delimiter Operator
 
 " Constants, especially string literals, can take up a lot of screen real
@@ -73,12 +73,12 @@ hi! link Number Constant
 hi! link Float Constant
 hi! link Special Constant
 
-" Functions are the fundamental tool for abstracting control flow: function
-" names and their usages are often the most distinguishable clues for figuring
-" out the logic and intent of code. I chose this blue frankly because I find it
-" aesthetically pleasing: it's a bold, deep blue, but not too dark to get lost
-" in the dark sea green background. I like looking at it, which is important for
-" a syntax element that I wind up looking at a lot.
+" Functions are the fundamental tool for abstracting logic and control flow:
+" function names and their usages are often the most distinguishable clues for
+" figuring out the logic and intent of code. I chose this blue frankly because
+" I find it aesthetically pleasing: it's a bold, deep blue, but not too dark to
+" get lost in the dark sea green background. I like looking at it, which is
+" important for a syntax element that I wind up looking at a lot.
 hi Function     ctermfg=39    guifg=DeepSkyBlue1
 hi! link Identifier Function
 hi! link Tag Function
@@ -97,7 +97,7 @@ hi! link Debug PreProc
 " in color intensity to Function and PreProc. However, since keywords are built-
 " in, rather than user-definable, they are of a more greenish hue to subtly
 " associate them with the color of built-in types.
-hi Keyword      ctermfg=71    guifg=#5faf5f
+hi Keyword      ctermfg=40    guifg=#00df00
 hi! link Statement Keyword
 hi! link Conditional Keyword
 hi! link Repeat Keyword
@@ -106,8 +106,8 @@ hi! link Structure Keyword
 
 " Types indicate the characteristics and shape of the data that code operates
 " with. Thus, to contrast with the darker colors used to mark control flow, I
-" used a lighter, pale green to mark this as something of an 'annotation'.
-hi Type         ctermfg=121   guifg=PaleGreen1
+" used a lighter green to mark this as something of an 'annotation'.
+hi Type         ctermfg=118   guifg=#87ff00
 
 " In a similar vein to type highlighting, comments are another form of
 " annotation (except more free-form and not checked by the compiler), and thus
