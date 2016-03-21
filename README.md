@@ -36,7 +36,7 @@ but it diverges according to the following design principles:
 
 ## Screenshots
 
-![C](http://i.imgur.com/nb777JF.png)
+![C](http://i.imgur.com/kdtFOy8.png)
 
 For more, see the [screenshots page](https://github.com/henrybw/vim-colors-aurora/wiki/Screenshots) on the wiki.
 
