@@ -97,7 +97,7 @@ hi! link Debug PreProc
 " in color intensity to Function and PreProc. However, since keywords are built-
 " in, rather than user-definable, they are of a more greenish hue to subtly
 " associate them with the color of built-in types.
-hi Keyword      ctermfg=40    guifg=#00df00
+hi Keyword      ctermfg=106   guifg=#87af00
 hi! link Statement Keyword
 hi! link Conditional Keyword
 hi! link Repeat Keyword
@@ -107,7 +107,7 @@ hi! link Structure Keyword
 " Types indicate the characteristics and shape of the data that code operates
 " with. Thus, to contrast with the darker colors used to mark control flow, I
 " used a lighter green to mark this as something of an 'annotation'.
-hi Type         ctermfg=118   guifg=#87ff00
+hi Type         ctermfg=119   guifg=#87ff5f
 
 " In a similar vein to type highlighting, comments are another form of
 " annotation (except more free-form and not checked by the compiler), and thus
