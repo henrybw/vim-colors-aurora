@@ -51,7 +51,7 @@ let g:colors_name="aurora"
 
 " The base palette is inspired by the Solarized Dark color scheme. We use it as
 " a starting point to build the other colors.
-hi Normal       guifg=#bcbcbc guibg=#002b36
+hi Normal       guifg=#bcbcbc guibg=#003b47
 
 " Operators and delimeters occur frequently in code, so having them stand out
 " too much can add a lot of gratuitous, obnoxious visual noise. Instead, I want
@@ -158,7 +158,7 @@ hi Error        ctermbg=16    guibg=Grey0
 
 " Menu colors (including wild menus)
 " Colors got weird for this one, so I had to make the GUI and terminal colors differ :(
-hi Pmenu        ctermfg=18    guifg=#002b36
+hi Pmenu        ctermfg=18    guifg=#003b47
 hi Pmenu        ctermbg=102   guibg=#839496
 hi PmenuSel     ctermfg=231   guifg=Grey100
 hi PmenuSel     ctermbg=241   guibg=Grey39

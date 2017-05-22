@@ -4,7 +4,7 @@
 
 ! For some reason, generic wildcards don't seem to work for these. If you don't
 ! use rxvt-unicode, change URxvt to the name of your terminal emulator of choice.
-URxvt*background: #002b36
+URxvt*background: #003b47
 URxvt*foreground: #bcbcbc
 URxvt*cursorColor: #bcbcbc
 

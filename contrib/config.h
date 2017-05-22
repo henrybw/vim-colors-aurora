@@ -88,7 +88,7 @@ static const char *colorname[] = {
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
-	"#002b36",  /* Aurora background */
+	"#003b47",  /* Aurora background */
 	"#bcbcbc",  /* Aurora foreground */
 
 	/* Inkpot colors */
