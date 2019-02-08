@@ -62,7 +62,7 @@
 
 (deftheme vim-aurora)
 (let ((class '((class color) (min-colors 89)))
-      (fg1        "#bcbcbc")
+      (fg1        "#c7c7c7")
       (fg2        "#ababab")
       (fg3        "#9b9b9b")
       (fg4        "#8b8b8b")

@@ -51,7 +51,7 @@ let g:colors_name="aurora"
 
 " The base palette is inspired by the Solarized Dark color scheme. We use it as
 " a starting point to build the other colors.
-hi Normal       guifg=#bcbcbc guibg=#003b47
+hi Normal       guifg=#c7c7c7 guibg=#003b47
 
 " Operators and delimeters occur frequently in code, so having them stand out
 " too much can add a lot of gratuitous, obnoxious visual noise. Instead, I want
