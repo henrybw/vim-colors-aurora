@@ -138,7 +138,7 @@
    `(cursor ((,class (:background ,cursor))))
    `(show-paren-match-face ((,class (:background ,matchparen))))
    `(sp-pair-overlay-face ((,class (:background nil))))
-   `(fci-rule-color ((,class (:foreground ,fillcolumn))))
+   `(fill-column-indicator ((,class (:foreground ,fillcolumn))))
    `(trailing-whitespace ((,class (:background unspecified :foreground ,trailing
                                                :inverse-video t))))
    `(whitespace-space ((,class (:background unspecified :foreground ,trailing
