@@ -62,7 +62,7 @@
 
 (deftheme borealis)
 (let ((class '((class color) (min-colors 89)))
-      (fg1        "#d7d7d7")
+      (fg1        "#ebebeb")
       (fg2        "#ababab")
       (fg3        "#9b9b9b")
       (fg4        "#8b8b8b")
